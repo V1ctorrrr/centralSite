@@ -2,6 +2,8 @@ import { DOCUMENT, isPlatformBrowser } from "@angular/common";
 import { Injectable, OnDestroy, PLATFORM_ID, RendererFactory2, inject } from "@angular/core";
 import { ReplaySubject, Subject, takeUntil } from "rxjs";
 
+//code: https://dev.to/this-is-angular/dark-mode-with-analog-tailwind-4049
+
 @Injectable({
     providedIn: 'root',
   })
