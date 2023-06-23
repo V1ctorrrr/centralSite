@@ -7,12 +7,18 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FormsModule} from '@angular/forms';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { Portfolio3dComponent } from './portfolio3d/portfolio3d.component';
+import { GithubComponent } from './github/github.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavBarComponent
+    NavBarComponent,
+    PortfolioComponent,
+    Portfolio3dComponent,
+    GithubComponent
   ],
   imports: [
     BrowserModule,
